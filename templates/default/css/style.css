@@ -1,0 +1,114 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800&subset=latin,cyrillic);
+body {
+font:12px/18px "Open Sans";
+background: #e5e5e5;
+margin: 0;
+}
+a {
+	text-decoration: none;
+}
+.container {
+padding: 10px;
+background: #fff;
+height: 500px;
+width: 70%;
+margin: auto;
+position:static  ; 
+text-align: center;
+}
+.top_menu {
+padding: 10px;
+	max-height: 20%;
+background: #2568F7;
+color: #fff;
+
+}
+.foot {
+padding: 13px;
+max-width: 50%;
+color: #fff;
+text-align: center;
+font-size: 13px;
+}
+.foot a {
+color: #465122;
+}
+.top_menu_link {
+	padding: 10px 15px;
+	height: 100%;
+	font-size: 15px;
+	color: #fff;
+}
+.top_menu_link:hover {
+	background: #0050F8;
+}
+.center {
+text-align: center;
+}
+
+input, textarea {
+		border:1px solid #aaa;
+		border-radius:2px;
+		padding:5px;
+}
+
+input[type="submit"], .login {
+	background-color: #68b12f;
+	background: -webkit-gradient(linear, left top, left bottom, from(#68b12f), to(#50911e));
+	background: -webkit-linear-gradient(top, #68b12f, #50911e);
+	background: -moz-linear-gradient(top, #68b12f, #50911e);
+	background: -ms-linear-gradient(top, #68b12f, #50911e);
+	background: -o-linear-gradient(top, #68b12f, #50911e);
+	background: linear-gradient(top, #68b12f, #50911e);
+	border: 1px solid #509111;
+	border-bottom: 1px solid #5b992b;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-ms-border-radius: 3px;
+	-o-border-radius: 3px;
+	box-shadow: inset 0 1px 0 0 #9fd574;
+	-webkit-box-shadow: 0 1px 0 0 #9fd574 inset ;
+	-moz-box-shadow: 0 1px 0 0 #9fd574 inset;
+	-ms-box-shadow: 0 1px 0 0 #9fd574 inset;
+	-o-box-shadow: 0 1px 0 0 #9fd574 inset;
+	color: white;
+	padding: 6px 20px;
+	text-align: center;
+	text-shadow: 1px 0 #396715;
+}
+input[type="submit"]:hover, .login:hover {
+	opacity:.85;
+	cursor: pointer;
+}
+input[type="submit"]:active, .login:active {
+	border: 1px solid #20911e;
+	box-shadow: 0 0 10px 5px #356b0b inset; 
+	-webkit-box-shadow:0 0 10px 5px #356b0b inset ;
+	-moz-box-shadow: 0 0 10px 5px #356b0b inset;
+	-ms-box-shadow: 0 0 10px 5px #356b0b inset;
+	-o-box-shadow: 0 0 10px 5px #356b0b inset;
+	
+}
+table.text  {
+
+    width:  100%;
+    border-spacing: 0;
+   }
+   td.rightcol {
+    text-align: right; 
+   }
+   .right {
+    text-align: right; 
+  }
+   .left {
+    text-align: left; 
+  }
+.title {
+padding: 13px;
+background: #00415d;
+color: #fff;
+font-size: 13px;
+text-align: center;
+border-radius: 11px 11px 0 0;
+ }

@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link href="../../index.php" rel="shortcut icon">
+  <link rel="stylesheet" href="/templates/default/css/window.css">
+  <link rel="stylesheet" href="/templates/default/css/style.css">
+  	<script type="text/javascript" src="http://yandex.st/jquery/1.7.1/jquery.min.js" ></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('.window .close_window, .overlay').click(function (){
+				$('.window, .overlay').css({'opacity':'0', 'visibility':'hidden'});
+			});
+			$('a.login').click(function (e){
+				$('.window, .overlay').css({'opacity':'1', 'visibility':'visible'});
+				e.preventDefault();
+			});
+		});
+	</script>
+
+
+  <title>Заголовок</title>  
+</head>
+
+<body>
+<div class="overlay" title="окно"></div>
+<div class="window">
+<div class="title">Вход<div class="close_window">x</div></div>
+	<div class="popup">
+<p><form>Логин / E-mail::<br /><input name="login" />
+	<br />Пароль:<br /><input name="login" /><br /><br /><input name="login" type="submit" value="Вход" /></form></p><p>
+		<a href="../../index.php" id="reg">Регистрация</a> / <a href="#">Забыли пароль?</a></p>
+</div></div>
+<div class="top_menu"><table class="text">
+<td class="left"><b>САЙТ.РУ</b></td><td class="center"> <a href="#" class="top_menu_link">Шлюха</a> <a href="#" class="top_menu_link">Пидор</a>
+<a href="#" class="top_menu_link">Гавно</a> <a href="#" class="top_menu_link">Моча</a></td>
+<td class="rightcol"><a href="../../index.php" class="login">Вход</a></td></table></div>
+<div class="container">asdasdLOL <input name="search" type="submit" value="Поиск"/></div>
+<div class="foot"><table class="text">
+<a href="#">Пользователи</a><br /><a href="#">Пользователи</a><br /><a href="#">Пользователи</a><br /><a href="#">Пользователи</a></table><div>
+</body>
+</html>
